@@ -22,7 +22,7 @@ def install_package(package, upgrade=False):
         return False
 
 def instalar_predeterminados(upgrade=False):
-    paquetes = ["pymino", "colorama", "pyfiglet", "tqdm", "requests", "diskcache", "dotenv","uuid","base64"]
+    paquetes = ["pymino", "colorama", "pyfiglet", "tqdm", "requests", "diskcache", "dotenv","uuid"]
     
     action = "ACTUALIZANDO" if upgrade else "INSTALANDO"
     print(f"\n{action} PAQUETES PREDETERMINADOS")
